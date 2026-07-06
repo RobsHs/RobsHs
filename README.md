@@ -21,13 +21,13 @@
 
 ### 🧠 Tentang Saya
 
-- ✨ **Expert Vibe Coder** — jago nge-prompt sampai ide jadi produk beneran
-- 🤖 Terbiasa kerja bareng AI (Claude, ChatGPT, Copilot, Cursor) buat ngebut bikin project
-- 🔭 Fokus ke **AI-assisted development**, automation, dan rapid prototyping
-- 🌱 Terus eksplor tools & workflow baru biar makin efisien
-- ⚡ Filosofi: *"Kalau bisa cepat kenapa harus lama? Vibe dulu, polish belakangan."*
-- 💬 Bisa diajak ngobrol soal AI tools, prompt engineering, sampai automation workflow
-- 📫 Bisa dihubungi lewat: **fredapacitan@kamu.com**
+- Jago nge‑prompt sampai ide jadi produk nyata
+- Terlatih kerja bareng AI (Claude, ChatGPT, Copilot, Cursor) buat ngebut bikin project
+- Fokus ke AI‑assisted development, automation, dan rapid prototyping
+- Selalu eksplor tools & workflow baru buat efisiensi maksimal
+- Filosofi: "Just Do it."
+- Bisa diajak ngobrol soal AI tools, prompt engineering, dan automation workflow
+- Kontak: fredapacitan@kamu.com
 
 ---
 
@@ -86,30 +86,3 @@
 <p align="center"><i>Bludd</i></p>
 
 ---
-
-<details>
-<summary>⚙️ <b>Extra: Setup Snake Animation (Neon Blue)</b> (klik untuk buka)</summary>
-
-1. Pastikan kamu sudah punya repo bernama **persis sama dengan username GitHub kamu**, yaitu `RobsHs`. Repo ini otomatis jadi "profile README" GitHub kamu.
-2. Taruh `README.md` ini di root repo tersebut.
-3. Copy file `snake.yml` (sudah aku siapkan, tinggal download) ke path berikut di repo yang sama:
-   ```
-   .github/workflows/snake.yml
-   ```
-4. Commit & push ke branch `main`.
-5. Buka tab **Actions** di repo kamu → workflow "Generate Snake Animation" akan otomatis jalan (atau klik **Run workflow** manual sekali biar langsung generate).
-6. Setelah selesai, GitHub Actions bakal bikin branch baru namanya `output` yang isinya file SVG snake — dan itu yang otomatis muncul di README kamu.
-7. Animasi akan ke-update otomatis tiap 6 jam sesuai jadwal cron.
-
-</details>
-
-<details>
-<summary>📝 <b>Checklist terakhir sebelum publish</b></summary>
-
-- Download `README.md` dan `snake.yml` yang sudah aku siapkan
-- Upload `README.md` ke root repo `RobsHs`
-- Upload `snake.yml` ke path `.github/workflows/snake.yml` di repo yang sama
-- Push, lalu cek tab **Actions** untuk mastiin workflow jalan tanpa error
-- Done — profile kamu langsung tampil dengan tema biru neural-network ✨
-
-</details>
