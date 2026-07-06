@@ -48,18 +48,7 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RobsHs&show_icons=true&hide_border=true&count_private=true&bg_color=0A0E27&title_color=00F0FF&icon_color=00C6FF&text_color=8FE9FF" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RobsHs&layout=compact&hide_border=true&bg_color=0A0E27&title_color=00F0FF&text_color=8FE9FF" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RobsHs&hide_border=true&background=0A0E27&ring=00C6FF&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=8FE9FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6E93B8" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RobsHs&theme=algolia&no-frame=true&row=1&column=6&margin-w=8" />
-</p>
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=RobsHs&theme=tokyonight)
 
 ---
 
