@@ -58,8 +58,6 @@
   <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg" />
 </p>
 
-> File animasi ini otomatis ter-generate oleh GitHub Actions. Panduan pasangnya ada di bagian **"Extra: Setup Snake Animation"** paling bawah 👇
-
 ---
 
 ### 🔗 Connect With Me
