@@ -21,13 +21,13 @@
 
 ### 🧠 Tentang Saya
 
-- Jago nge‑prompt sampai ide jadi produk nyata
-- Terlatih kerja bareng AI (Claude, ChatGPT, Copilot, Cursor) buat ngebut bikin project
-- Fokus ke AI‑assisted development, automation, dan rapid prototyping
+- Skilled at transforming ideas into real products through advanced prompt engineering
+- Experienced collaborating with AI platforms (Claude, ChatGPT, Copilot, Cursor) to accelerate project delivery
+- Specialized in AI‑assisted development, automation, and rapid prototyping
 - Selalu eksplor tools & workflow baru buat efisiensi maksimal
-- Filosofi: "Just Do it."
-- Bisa diajak ngobrol soal AI tools, prompt engineering, dan automation workflow
-- Kontak: fredapacitan@kamu.com
+- Continuously exploring new tools and workflows to maximize efficiency
+- Open to discussions on AI tools, prompt engineering, and automation workflows
+- JustFrend
 
 ---
 
