@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=RobsHs&label=Profile%20Views&color=00C6FF&style=flat" alt="profile views" />
   <img src="https://img.shields.io/github/followers/RobsHs?label=Followers&style=flat&color=00C6FF" />
-  <img src="https://img.shields.io/badge/Vibe%20Level-Maximum-00E5FF?style=flat" />
+  <img src="https://img.shields.io/badge/Vibe%20Level-MBG-00E5FF?style=flat" />
   <img src="https://img.shields.io/badge/Status-Open%20to%20Collab-0072FF?style=flat" />
 </p>
 
