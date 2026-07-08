@@ -19,7 +19,7 @@
 
 ---
 
-### 🧠 Tentang Saya
+### 🧠 About Me
 
 - Skilled at transforming ideas into real products through advanced prompt engineering
 - Experienced collaborating with AI platforms (Claude, ChatGPT, Copilot, Cursor) to accelerate project delivery
