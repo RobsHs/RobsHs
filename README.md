@@ -27,7 +27,7 @@
 - Selalu eksplor tools & workflow baru buat efisiensi maksimal
 - Continuously exploring new tools and workflows to maximize efficiency
 - Open to discussions on AI tools, prompt engineering, and automation workflows
-- JustFrend
+- JustFrend.
 
 ---
 
