@@ -166,5 +166,5 @@ I use AI as a development partner to help with:
 </p>
 
 <p align="center">
-  <i>BLUDD.</i>
+  <i>BLUDD..</i>
 </p>
