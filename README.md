@@ -131,10 +131,16 @@ I use AI as a development partner to help with:
 
 ---
 
-## 🐍 Contribution Activity
+##  Contribution Activity
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg" />
+</p>
+
+## 🎮 Puzzle Bobble Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/puzzle-bobble-contribution-graph-dark.svg" />
 </p>
 
 ---
