@@ -156,9 +156,6 @@ I use AI as a development partner to help with:
     <img src="https://img.shields.io/badge/Instagram-00C6FF?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
-  <a href="mailto:fredapacitan@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-0A0E27?style=for-the-badge&logo=gmail&logoColor=00F0FF" />
-  </a>
 
   <a href="https://github.com/RobsHs">
     <img src="https://img.shields.io/badge/GitHub-0A0E27?style=for-the-badge&logo=github&logoColor=00F0FF" />
