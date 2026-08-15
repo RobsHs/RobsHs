@@ -152,7 +152,7 @@ I use AI as a development partner to help with:
     <img src="https://img.shields.io/badge/LinkedIn-0072FF?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
-  <a href="https://instagram.com/Dodot_Coy" target="_blank">
+  <a href="https://instagram.com/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-00C6FF?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 
