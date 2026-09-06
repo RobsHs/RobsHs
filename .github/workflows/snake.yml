@@ -14,13 +14,14 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake SVG (neon blue theme)
+      - name: Generate snake SVG (neon & matrix theme)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-neon.svg?palette=%230A0E27,%230072FF,%2300C6FF,%2300F0FF,%238FE9FF
+            dist/github-contribution-grid-snake-matrix.svg?palette=%23050505,%23003b00,%23008f11,%2300ff41,%23a3ffb2
 
       - name: Push generated SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
