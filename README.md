@@ -31,30 +31,28 @@
 
 ```console
 ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
-║  OPERATOR CLASSIFIED DOSSIER :: CODE IDENTITY "Gi∞" (@RobsHs) [HIU JAGA GURITA // RED PROTO]  ║
+║  OPERATOR CLASSIFIED DOSSIER :: CODE IDENTITY "Gi∞" (@RobsHs) [RED PROTOCOL]                  ║
 ╚════════════════════════════════════════════════════════════════════════════════════════════════╝
-┌──(root㉿RobsHs-ApexDeck)-[~]
-└─# neofetch --profile --sigil=hiu-jaga-gurita --threat=maximum
+┌──(root㉿RobsHs-RedDeck)-[~]
+└─# neofetch --profile --aura=crimson --threat=maximum
 
-           __            OPERATOR       : Gi∞ (@RobsHs)
-          /""-._   /\    CLEARANCE      : LEVEL 5 // UNRESTRICTED ROOT [UID 0]
-      .-'/  _   "-./ /   DESIGNATION    : Offensive Full-Stack Architect & Red Operative
-     /  /  (•\       /   SIGIL GUARDIAN : HIU JAGA GURITA [APEX SHARK & KRAKEN]
-    /  /      '-._  /    DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
-   /  /  .-.___   \/     COMBAT STATUS  : 100% OPERATIONAL • CONTINUOUS HIGH-YIELD EXECUTION
-   \_/  /  _   \ [SHARK] NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
-       /  (o) (o)\       PRIMARY WEAPONS: TypeScript • React 19 • Next.js • Python • Linux
-      (     _     )      TARGET SECTOR  : Enterprise Web Systems, Distributed Grids & Scalable Apps
-     / \  ( | )  / \     DEFENSE MATRIX : SHARK-PATROL // 8-TENTACLE MULTITHREADED CORES
-    (_/ (_/ | \_) \_)    FIREWALL       : ARMED [AES-256-GCM // HARDENED AGAINST ALL VECTORS]
-       '-'-'-'-' [OCTO]  SECURITY PROTO : APEX_OCEAN_DEFENSE // ZERO BREACHES ALLOWED
+          .---.           OPERATOR       : Gi∞ (@RobsHs)
+         /     \          CLEARANCE      : LEVEL 5 // UNRESTRICTED ROOT [UID 0]
+        |(0) (0)|         DESIGNATION    : Offensive Full-Stack Architect & Red Operative
+         \  o  /          DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
+          /   \           COMBAT STATUS  : 100% OPERATIONAL • CONTINUOUS HIGH-YIELD EXECUTION
+         /  .  \          NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
+        / /| |\ \         PRIMARY WEAPONS: TypeScript • React 19 • Next.js • Python • Linux
+       (_/ | | \_)        TARGET SECTOR  : Enterprise Web Systems, Distributed Grids & Scalable Apps
+           "-"            FIREWALL       : ARMED [AES-256-GCM // HARDENED AGAINST ALL VECTORS]
 ```
 
-### 🩸 Red Operative Doctrines // Protocol "Hiu Jaga Gurita"
-* 🦈 **The Apex Shark Defense**: Patrolling perimeter boundaries, intercepting performance bottlenecks, and executing rapid code refactors before vulnerabilities surface.
-* 🐙 **The Octo-Core Multi-Threading**: Deploying 8 concurrent vectors across React 19, Next.js, Python, distributed DBs, and AI agents simultaneously.
-* 🧠 **Neural AI Multipliers**: Leveraging Google Gemini, Claude, and deep automated agent pipelines to execute engineering tasks at 10x velocity.
-* 💼 **The Gi∞ Ethos**: _"High Risk, High Income. Build without hesitation. Ship without mercy. Dominate the domain."_
+### 🩸 Red Operative Doctrines
+
+- ⚡ **Aggressive Frontend Velocity**: Engineering blisteringly fast client experiences with React 19, Next.js, and Tailwind CSS v4. Clean, modular, and visually lethal.
+- 🛡️ **Hardened Resilient Infrastructure**: Architecting microservices, asynchronous queues, and database engines with Python, Node.js, and SQL/NoSQL frameworks.
+- 🧠 **Neural AI Multipliers**: Leveraging Google Gemini, Claude, and deep automated agent pipelines to execute engineering tasks at 10x velocity.
+- 💼 **The Gi∞ Ethos**: _"High Risk, High Income. Build without hesitation. Ship without mercy. Dominate the domain."_
 
 ---
 
@@ -127,12 +125,12 @@
 ## 📊 0x04 // Quantum Telemetry & Radar
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C" alt="RobsHs Crimson Stats" height="175" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C" alt="Top Weaponry" height="175" />
+  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=20260906" alt="RobsHs Crimson Stats" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=20260906" alt="Top Weaponry" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RobsHs&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F" alt="Execution Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RobsHs&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=20260906" alt="Execution Streak" />
 </p>
 
 ---
