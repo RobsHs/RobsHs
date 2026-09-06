@@ -31,28 +31,30 @@
 
 ```console
 ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
-║  OPERATOR CLASSIFIED DOSSIER :: CODE IDENTITY "Gi∞" (@RobsHs) [RED PROTOCOL]                  ║
+║  OPERATOR CLASSIFIED DOSSIER :: CODE IDENTITY "Gi∞" (@RobsHs) [HIU JAGA GURITA // RED PROTO]  ║
 ╚════════════════════════════════════════════════════════════════════════════════════════════════╝
-┌──(root㉿RobsHs-RedDeck)-[~]
-└─# neofetch --profile --aura=crimson --threat=maximum
+┌──(root㉿RobsHs-ApexDeck)-[~]
+└─# neofetch --profile --sigil=hiu-jaga-gurita --threat=maximum
 
-          .---.           OPERATOR       : Gi∞ (@RobsHs)
-         /     \          CLEARANCE      : LEVEL 5 // UNRESTRICTED ROOT [UID 0]
-        |(0) (0)|         DESIGNATION    : Offensive Full-Stack Architect & Red Operative
-         \  o  /          DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
-          /   \           COMBAT STATUS  : 100% OPERATIONAL • CONTINUOUS HIGH-YIELD EXECUTION
-         /  .  \          NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
-        / /| |\ \         PRIMARY WEAPONS: TypeScript • React 19 • Next.js • Python • Linux
-       (_/ | | \_)        TARGET SECTOR  : Enterprise Web Systems, Distributed Grids & Scalable Apps
-           "-"            FIREWALL       : ARMED [AES-256-GCM // HARDENED AGAINST ALL VECTORS]
+           __            OPERATOR       : Gi∞ (@RobsHs)
+          /""-._   /\    CLEARANCE      : LEVEL 5 // UNRESTRICTED ROOT [UID 0]
+      .-'/  _   "-./ /   DESIGNATION    : Offensive Full-Stack Architect & Red Operative
+     /  /  (•\       /   SIGIL GUARDIAN : HIU JAGA GURITA [APEX SHARK & KRAKEN]
+    /  /      '-._  /    DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
+   /  /  .-.___   \/     COMBAT STATUS  : 100% OPERATIONAL • CONTINUOUS HIGH-YIELD EXECUTION
+   \_/  /  _   \ [SHARK] NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
+       /  (o) (o)\       PRIMARY WEAPONS: TypeScript • React 19 • Next.js • Python • Linux
+      (     _     )      TARGET SECTOR  : Enterprise Web Systems, Distributed Grids & Scalable Apps
+     / \  ( | )  / \     DEFENSE MATRIX : SHARK-PATROL // 8-TENTACLE MULTITHREADED CORES
+    (_/ (_/ | \_) \_)    FIREWALL       : ARMED [AES-256-GCM // HARDENED AGAINST ALL VECTORS]
+       '-'-'-'-' [OCTO]  SECURITY PROTO : APEX_OCEAN_DEFENSE // ZERO BREACHES ALLOWED
 ```
 
-### 🩸 Red Operative Doctrines
-
-- ⚡ **Aggressive Frontend Velocity**: Engineering blisteringly fast client experiences with React 19, Next.js, and Tailwind CSS v4. Clean, modular, and visually lethal.
-- 🛡️ **Hardened Resilient Infrastructure**: Architecting microservices, asynchronous queues, and database engines with Python, Node.js, and SQL/NoSQL frameworks.
-- 🧠 **Neural AI Multipliers**: Leveraging Google Gemini, Claude, and deep automated agent pipelines to execute engineering tasks at 10x velocity.
-- 💼 **The Gi∞ Ethos**: _"High Risk, High Income. Build without hesitation. Ship without mercy. Dominate the domain."_
+### 🩸 Red Operative Doctrines // Protocol "Hiu Jaga Gurita"
+* 🦈 **The Apex Shark Defense**: Patrolling perimeter boundaries, intercepting performance bottlenecks, and executing rapid code refactors before vulnerabilities surface.
+* 🐙 **The Octo-Core Multi-Threading**: Deploying 8 concurrent vectors across React 19, Next.js, Python, distributed DBs, and AI agents simultaneously.
+* 🧠 **Neural AI Multipliers**: Leveraging Google Gemini, Claude, and deep automated agent pipelines to execute engineering tasks at 10x velocity.
+* 💼 **The Gi∞ Ethos**: _"High Risk, High Income. Build without hesitation. Ship without mercy. Dominate the domain."_
 
 ---
 
