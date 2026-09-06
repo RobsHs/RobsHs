@@ -1,4 +1,4 @@
-name: Generate Contribution Animations
+name: Generate Snake Animation
 
 on:
   schedule:
@@ -23,13 +23,7 @@ jobs:
             dist/github-contribution-grid-snake-neon.svg?palette=%230A0E27,%230072FF,%2300C6FF,%2300F0FF,%238FE9FF
             dist/github-contribution-grid-snake-red.svg?palette=%23080406,%234a0e17,%238b0000,%23ff003c,%23ff758f
 
-      - name: Generate Breakout arcade contribution graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: "breakout"
-
-      - name: Push generated SVGs to output branch
+      - name: Push generated SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
