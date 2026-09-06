@@ -1,38 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712" />
-      <stop offset="50%" stop-color="#070d18" />
-      <stop offset="100%" stop-color="#02040a" />
+    <!-- Background Gradient (Obsidian to Deep Crimson Charcoal) -->
+    <linearGradient id="bgGradRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050103" />
+      <stop offset="50%" stop-color="#0f0307" />
+      <stop offset="100%" stop-color="#040102" />
     </linearGradient>
 
-    <!-- Neon Glow Gradient -->
-    <linearGradient id="neonCyanGreen" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00FFA3" />
-      <stop offset="50%" stop-color="#00E5FF" />
-      <stop offset="100%" stop-color="#38BDF8" />
+    <!-- Neon Crimson Scarlet Gradient -->
+    <linearGradient id="neonCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF003C" />
+      <stop offset="50%" stop-color="#FF2E63" />
+      <stop offset="100%" stop-color="#FF758F" />
     </linearGradient>
 
-    <!-- Crimson Accent -->
-    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF0055" />
-      <stop offset="100%" stop-color="#FF3366" />
+    <!-- Dark Red Amber Accent -->
+    <linearGradient id="bloodFire" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B0000" />
+      <stop offset="50%" stop-color="#FF003C" />
+      <stop offset="100%" stop-color="#FFAA00" />
     </linearGradient>
 
-    <!-- Subtle Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00E5FF" stroke-width="0.5" stroke-opacity="0.08" />
+    <!-- Subtle Crimson Grid Pattern -->
+    <pattern id="gridRed" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FF003C" stroke-width="0.5" stroke-opacity="0.09" />
     </pattern>
 
-    <!-- Glow Filter -->
-    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Glow Filters -->
+    <filter id="glowRed" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <filter id="glowTitle" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="glowTitleRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
@@ -40,126 +41,116 @@
   <style>
     .mono { font-family: 'Consolas', 'Fira Code', 'Courier New', monospace; }
     .bold-title { font-family: 'Consolas', 'Fira Code', monospace; font-weight: 900; letter-spacing: 4px; }
-    .scanline {
-      animation: scan 8s linear infinite;
+    .blink-red {
+      animation: blinkerRed 1.2s infinite;
     }
-    @keyframes scan {
-      0% { transform: translateY(0); opacity: 0.15; }
-      50% { opacity: 0.3; }
-      100% { transform: translateY(260px); opacity: 0.15; }
-    }
-    .blink {
-      animation: blinker 1.2s infinite;
-    }
-    @keyframes blinker {
+    @keyframes blinkerRed {
       50% { opacity: 0.2; }
     }
   </style>
 
   <!-- Base Card -->
-  <rect x="2" y="2" width="896" height="256" rx="10" fill="url(#bgGrad)" stroke="#00FFA3" stroke-width="1.5" stroke-opacity="0.4" />
-  <rect x="2" y="2" width="896" height="256" rx="10" fill="url(#grid)" />
+  <rect x="2" y="2" width="896" height="256" rx="10" fill="url(#bgGradRed)" stroke="#FF003C" stroke-width="1.5" stroke-opacity="0.45" />
+  <rect x="2" y="2" width="896" height="256" rx="10" fill="url(#gridRed)" />
 
-  <!-- Corner Tactical Brackets -->
-  <path d="M 12 30 L 12 12 L 30 12" fill="none" stroke="#00FFA3" stroke-width="2.5" />
-  <path d="M 888 30 L 888 12 L 870 12" fill="none" stroke="#00FFA3" stroke-width="2.5" />
-  <path d="M 12 230 L 12 248 L 30 248" fill="none" stroke="#00FFA3" stroke-width="2.5" />
-  <path d="M 888 230 L 888 248 L 870 248" fill="none" stroke="#00FFA3" stroke-width="2.5" />
+  <!-- Corner Tactical Crimson Brackets -->
+  <path d="M 12 30 L 12 12 L 30 12" fill="none" stroke="#FF003C" stroke-width="2.5" />
+  <path d="M 888 30 L 888 12 L 870 12" fill="none" stroke="#FF003C" stroke-width="2.5" />
+  <path d="M 12 230 L 12 248 L 30 248" fill="none" stroke="#FF003C" stroke-width="2.5" />
+  <path d="M 888 230 L 888 248 L 870 248" fill="none" stroke="#FF003C" stroke-width="2.5" />
 
   <!-- Window Header Bar -->
-  <rect x="2" y="2" width="896" height="34" rx="10" fill="#0A101D" fill-opacity="0.85" />
-  <line x1="2" y1="36" x2="898" y2="36" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.25" />
+  <rect x="2" y="2" width="896" height="34" rx="10" fill="#130408" fill-opacity="0.9" />
+  <line x1="2" y1="36" x2="898" y2="36" stroke="#FF003C" stroke-width="1" stroke-opacity="0.3" />
 
   <!-- Terminal Window Controls -->
-  <circle cx="24" cy="19" r="5" fill="#FF3B30" />
-  <circle cx="40" cy="19" r="5" fill="#FFCC00" />
-  <circle cx="56" cy="19" r="5" fill="#00FFA3" filter="url(#glowGreen)" />
+  <circle cx="24" cy="19" r="5" fill="#FF003C" filter="url(#glowRed)" />
+  <circle cx="40" cy="19" r="5" fill="#FF8800" />
+  <circle cx="56" cy="19" r="5" fill="#551122" />
 
   <!-- Header Info -->
-  <text x="76" y="23" fill="#64748B" class="mono" font-size="11" letter-spacing="1">HOST: <tspan fill="#00E5FF">ROBSHS-CYBERDECK-01</tspan> [x86_64-linux]</text>
-  <text x="540" y="23" fill="#64748B" class="mono" font-size="11" letter-spacing="1">SECURITY: <tspan fill="#00FFA3" font-weight="bold">UNRESTRICTED // ROOT</tspan></text>
-  <text x="800" y="23" fill="#FF0055" class="mono" font-size="11" font-weight="bold" letter-spacing="1">[LIVE HUD]</text>
+  <text x="76" y="23" fill="#884455" class="mono" font-size="11" letter-spacing="1">HOST: <tspan fill="#FF2E63">ROBSHS-RED-PROTOCOL-01</tspan> [x86_64-linux]</text>
+  <text x="540" y="23" fill="#884455" class="mono" font-size="11" letter-spacing="1">THREAT CLEARANCE: <tspan fill="#FF003C" font-weight="bold">UNRESTRICTED // ROOT</tspan></text>
+  <text x="800" y="23" fill="#FF003C" class="mono" font-size="11" font-weight="bold" letter-spacing="1">[RED AURA]</text>
 
   <!-- Left Cyber Shield / Hex Crest -->
   <g transform="translate(35, 55)">
-    <!-- Outer Hex -->
-    <polygon points="45,0 90,26 90,78 45,104 0,78 0,26" fill="#050B14" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.6" />
-    <polygon points="45,8 82,30 82,74 45,96 8,74 8,30" fill="none" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3,3" />
+    <polygon points="45,0 90,26 90,78 45,104 0,78 0,26" fill="#0C0205" stroke="#FF003C" stroke-width="1.5" stroke-opacity="0.7" />
+    <polygon points="45,8 82,30 82,74 45,96 8,74 8,30" fill="none" stroke="#FF2E63" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3,3" />
     <!-- Center Infinity Icon & Terminal Prompt -->
-    <text x="45" y="55" fill="#00FFA3" class="bold-title" font-size="32" text-anchor="middle" filter="url(#glowGreen)">∞</text>
-    <text x="45" y="76" fill="#00E5FF" class="mono" font-size="10" font-weight="bold" text-anchor="middle" letter-spacing="1.5">Gi-CORE</text>
+    <text x="45" y="55" fill="#FF003C" class="bold-title" font-size="32" text-anchor="middle" filter="url(#glowRed)">∞</text>
+    <text x="45" y="76" fill="#FFAA00" class="mono" font-size="10" font-weight="bold" text-anchor="middle" letter-spacing="1.5">Gi-CORE</text>
     <!-- Crosshairs -->
-    <line x1="45" y1="-5" x2="45" y2="5" stroke="#00FFA3" stroke-width="1.5" />
-    <line x1="45" y1="99" x2="45" y2="109" stroke="#00FFA3" stroke-width="1.5" />
+    <line x1="45" y1="-5" x2="45" y2="5" stroke="#FF003C" stroke-width="1.5" />
+    <line x1="45" y1="99" x2="45" y2="109" stroke="#FF003C" stroke-width="1.5" />
   </g>
 
   <!-- Center Hero Typography -->
   <g transform="translate(155, 62)">
     <!-- Terminal Command Line -->
-    <text x="0" y="16" fill="#00FFA3" class="mono" font-size="13" letter-spacing="1.5">
-      <tspan fill="#FF0055">root@robs-net</tspan>:<tspan fill="#00E5FF">~#</tspan> ./initialize_architect.sh --mode=godtier
+    <text x="0" y="16" fill="#FF003C" class="mono" font-size="13" letter-spacing="1.5">
+      <tspan fill="#FF3366">root@robs-net</tspan>:<tspan fill="#FFAA00">~#</tspan> ./initialize_red_operative.sh --clearance=root
     </text>
 
     <!-- Main Subject Title -->
-    <text x="0" y="56" fill="url(#neonCyanGreen)" class="bold-title" font-size="38" filter="url(#glowTitle)">
+    <text x="0" y="56" fill="url(#neonCrimson)" class="bold-title" font-size="38" filter="url(#glowTitleRed)">
       GI∞ :: ROBBS-HS
     </text>
     
     <!-- Subtitle / Role -->
-    <text x="0" y="80" fill="#94A3B8" class="mono" font-size="14" letter-spacing="2">
-      [ <tspan fill="#00FFA3" font-weight="bold">OFFENSIVE FULL-STACK ARCHITECT</tspan> ] • [ <tspan fill="#00E5FF">AUTONOMOUS AI SYSTEMS</tspan> ]
+    <text x="0" y="80" fill="#E2B4BD" class="mono" font-size="14" letter-spacing="2">
+      [ <tspan fill="#FF003C" font-weight="bold">OFFENSIVE FULL-STACK ARCHITECT</tspan> ] • [ <tspan fill="#FFAA00">AUTONOMOUS AI SYSTEMS</tspan> ]
     </text>
 
     <!-- Ethos & Code Directive -->
-    <text x="0" y="104" fill="#E2E8F0" class="mono" font-size="12" letter-spacing="1">
-      DIRECTIVE: <tspan fill="#00FFA3" font-weight="bold">"HIGH RISK. HIGH INCOME. EXECUTE WITHOUT PAUSE."</tspan>
+    <text x="0" y="104" fill="#FFE5EC" class="mono" font-size="12" letter-spacing="1">
+      DIRECTIVE: <tspan fill="#FF003C" font-weight="bold">"HIGH RISK. HIGH INCOME. EXECUTE WITHOUT PAUSE."</tspan>
     </text>
   </g>
 
   <!-- Right Telemetry Panel -->
   <g transform="translate(680, 56)">
-    <rect x="0" y="0" width="185" height="110" rx="6" fill="#050B14" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.3" />
-    <text x="12" y="20" fill="#64748B" class="mono" font-size="10" letter-spacing="1">// SYSTEM TELEMETRY</text>
+    <rect x="0" y="0" width="185" height="110" rx="6" fill="#0C0205" stroke="#FF003C" stroke-width="1" stroke-opacity="0.4" />
+    <text x="12" y="20" fill="#994455" class="mono" font-size="10" letter-spacing="1">// SYSTEM TELEMETRY</text>
     
-    <circle cx="16" cy="38" r="4" fill="#00FFA3" class="blink" />
-    <text x="26" y="42" fill="#E2E8F0" class="mono" font-size="10">CORES: <tspan fill="#00FFA3">100% ONLINE</tspan></text>
+    <circle cx="16" cy="38" r="4" fill="#FF003C" class="blink-red" />
+    <text x="26" y="42" fill="#FFE5EC" class="mono" font-size="10">CORES: <tspan fill="#FF003C">100% OVERCLOCKED</tspan></text>
 
-    <circle cx="16" cy="58" r="4" fill="#00E5FF" />
-    <text x="26" y="62" fill="#E2E8F0" class="mono" font-size="10">LATENCY: <tspan fill="#00E5FF">&lt; 1ms [EDGE]</tspan></text>
+    <circle cx="16" cy="58" r="4" fill="#FF2E63" />
+    <text x="26" y="62" fill="#FFE5EC" class="mono" font-size="10">LATENCY: <tspan fill="#FFAA00">&lt; 1ms [EDGE]</tspan></text>
 
-    <circle cx="16" cy="78" r="4" fill="#FF0055" />
-    <text x="26" y="82" fill="#E2E8F0" class="mono" font-size="10">VULN DEFENSE: <tspan fill="#FF0055">ARMED</tspan></text>
+    <circle cx="16" cy="78" r="4" fill="#FF003C" />
+    <text x="26" y="82" fill="#FFE5EC" class="mono" font-size="10">THREAT DEFENSE: <tspan fill="#FF003C">ARMED</tspan></text>
 
-    <line x1="10" y1="92" x2="175" y2="92" stroke="#00E5FF" stroke-width="0.5" stroke-opacity="0.2" />
-    <text x="12" y="103" fill="#64748B" class="mono" font-size="9">PORT: 0.0.0.0:* [LISTEN]</text>
+    <line x1="10" y1="92" x2="175" y2="92" stroke="#FF003C" stroke-width="0.5" stroke-opacity="0.25" />
+    <text x="12" y="103" fill="#884455" class="mono" font-size="9">PORT: 0.0.0.0:* [LISTEN]</text>
   </g>
 
   <!-- Bottom Metric & Tech Pill Strip -->
   <g transform="translate(25, 186)">
     <!-- Bar 1 -->
-    <rect x="0" y="0" width="165" height="38" rx="4" fill="#080F1D" stroke="#00FFA3" stroke-width="1" stroke-opacity="0.5" />
-    <text x="12" y="16" fill="#64748B" class="mono" font-size="9">PRIMARY WEAPONS</text>
-    <text x="12" y="30" fill="#00FFA3" class="mono" font-size="11" font-weight="bold">TS • REACT 19 • PY</text>
+    <rect x="0" y="0" width="165" height="38" rx="4" fill="#130408" stroke="#FF003C" stroke-width="1" stroke-opacity="0.6" />
+    <text x="12" y="16" fill="#994455" class="mono" font-size="9">PRIMARY WEAPONS</text>
+    <text x="12" y="30" fill="#FF003C" class="mono" font-size="11" font-weight="bold">TS • REACT 19 • PY</text>
 
     <!-- Bar 2 -->
-    <rect x="180" y="0" width="165" height="38" rx="4" fill="#080F1D" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.5" />
-    <text x="192" y="16" fill="#64748B" class="mono" font-size="9">INTELLIGENCE STACK</text>
-    <text x="192" y="30" fill="#00E5FF" class="mono" font-size="11" font-weight="bold">GEMINI • CLAUDE • GPT</text>
+    <rect x="180" y="0" width="165" height="38" rx="4" fill="#130408" stroke="#FF2E63" stroke-width="1" stroke-opacity="0.6" />
+    <text x="192" y="16" fill="#994455" class="mono" font-size="9">INTELLIGENCE STACK</text>
+    <text x="192" y="30" fill="#FFAA00" class="mono" font-size="11" font-weight="bold">GEMINI • CLAUDE • GPT</text>
 
     <!-- Bar 3 -->
-    <rect x="360" y="0" width="165" height="38" rx="4" fill="#080F1D" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5" />
-    <text x="372" y="16" fill="#64748B" class="mono" font-size="9">ACTIVE REPOSITORIES</text>
-    <text x="372" y="30" fill="#38BDF8" class="mono" font-size="11" font-weight="bold">QR-PRO • CMAKER • WIN98</text>
+    <rect x="360" y="0" width="165" height="38" rx="4" fill="#130408" stroke="#FF3366" stroke-width="1" stroke-opacity="0.6" />
+    <text x="372" y="16" fill="#994455" class="mono" font-size="9">ACTIVE REPOSITORIES</text>
+    <text x="372" y="30" fill="#FF2E63" class="mono" font-size="11" font-weight="bold">QR-PRO • CMAKER • WIN98</text>
 
     <!-- Bar 4 -->
-    <rect x="540" y="0" width="310" height="38" rx="4" fill="#080F1D" stroke="#FF0055" stroke-width="1" stroke-opacity="0.5" />
-    <text x="552" y="16" fill="#64748B" class="mono" font-size="9">SECURITY CLEARANCE &amp; HASH</text>
-    <text x="552" y="30" fill="#FF0055" class="mono" font-size="10" font-weight="bold">SHA256: 9e8a...01bf [VERIFIED]</text>
+    <rect x="540" y="0" width="310" height="38" rx="4" fill="#130408" stroke="#FF003C" stroke-width="1" stroke-opacity="0.6" />
+    <text x="552" y="16" fill="#994455" class="mono" font-size="9">SECURITY CLEARANCE &amp; HASH</text>
+    <text x="552" y="30" fill="#FF003C" class="mono" font-size="10" font-weight="bold">SHA256: 9e8a...01bf [RED_ACCESS]</text>
   </g>
 
   <!-- Bottom Sub-line -->
-  <line x1="25" y1="238" x2="875" y2="238" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="4,4" />
-  <text x="25" y="250" fill="#475569" class="mono" font-size="9" letter-spacing="1">CLASSIFIED DOSSIER // UNAUTHORIZED DUPLICATION WILL BE TRACED // GITHUB.COM/ROBSHS</text>
-  <text x="830" y="250" fill="#00FFA3" class="mono" font-size="9" font-weight="bold" letter-spacing="1">[REV 4.0]</text>
+  <line x1="25" y1="238" x2="875" y2="238" stroke="#FF003C" stroke-width="1" stroke-opacity="0.2" stroke-dasharray="4,4" />
+  <text x="25" y="250" fill="#884455" class="mono" font-size="9" letter-spacing="1">CLASSIFIED RED OPERATIVE DOSSIER // GITHUB.COM/ROBSHS</text>
+  <text x="830" y="250" fill="#FF003C" class="mono" font-size="9" font-weight="bold" letter-spacing="1">[RED v4.0]</text>
 </svg>
-
