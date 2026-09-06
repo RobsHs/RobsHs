@@ -38,10 +38,10 @@
 
           .---.           OPERATOR       : Gi∞ (@RobsHs)
          /     \          CLEARANCE      : LEVEL 5 // UNRESTRICTED ROOT [UID 0]
-        | () () |         DESIGNATION    : Offensive Full-Stack Architect & Red Operative
-         \  _  /          DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
+        |(0) (0)|         DESIGNATION    : Offensive Full-Stack Architect & Red Operative
+         \  o  /          DIRECTIVE      : "High Risk. High Income. Zero Tolerance for Failure."
           /   \           COMBAT STATUS  : 100% OPERATIONAL • CONTINUOUS HIGH-YIELD EXECUTION
-         /     \          NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
+         /  .  \          NEURAL CORE    : Gemini 2.0 Pro • Claude 3.7 • OpenAI • Deep Agents
         / /| |\ \         PRIMARY WEAPONS: TypeScript • React 19 • Next.js • Python • Linux
        (_/ | | \_)        TARGET SECTOR  : Enterprise Web Systems, Distributed Grids & Scalable Apps
            "-"            FIREWALL       : ARMED [AES-256-GCM // HARDENED AGAINST ALL VECTORS]
@@ -135,7 +135,7 @@
 
 ---
 
-## 🐍 0x04.1 // Contribution Infiltration Grid (Snake Animation)
+## 🐍 0x04.1 // Contribution Infiltration Grid
 
 <p align="center">
   <code>[ RADAR TELEMETRY // SECTOR 07 // CONTINUOUS INFILTRATION ]</code>
