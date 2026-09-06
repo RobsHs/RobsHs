@@ -135,14 +135,14 @@
 
 ---
 
-## 🐍 0x04.1 // Contribution Infiltration Grid
+## 🕹️ 0x04.1 // Breakout Infiltration Grid (Pong Brick Breaker)
 
 <p align="center">
-  <code>[ RADAR TELEMETRY // CRIMSON SECTOR 07 // CONTINUOUS INFILTRATION ]</code>
+  <code>[ ARCADE RADAR // BREAKOUT PROTOCOL // ELIMINATING CONTRIBUTION BRICKS ]</code>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake.svg" alt="Contribution Grid Snake" width="100%" />
+  <img src="./assets/breakout-contribution-graph-dark.svg" alt="Breakout Pong Brick Contribution Graph" width="100%" />
 </p>
 
 ---
