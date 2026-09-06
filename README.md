@@ -135,15 +135,23 @@
 
 ---
 
-## 🕹️ 0x04.1 // Breakout Infiltration Grid (Pong Brick Breaker)
+## ⛏️ 0x04.1 // Minecraft Redstone Mining Shaft (Contribution Rig)
 
 <p align="center">
-  <code>[ ARCADE RADAR // BREAKOUT PROTOCOL // ELIMINATING CONTRIBUTION BRICKS ]</code>
+  <code>[ MINECRAFT PROTOCOL // DEEPSLATE Y-LEVEL: -58 // MINING REDSTONE COMMITS ]</code>
 </p>
 
+<p align="center">
+  <img src="./assets/minecraft_mining_graph.svg" alt="Minecraft Redstone Mining Contribution Graph" width="100%" />
+</p>
+
+<details>
+<summary><b>🕹️ Alternative Arcade Mode: Switch to Breakout (Pong Brick Breaker)</b></summary>
+<br>
 <p align="center">
   <img src="./assets/breakout-contribution-graph-dark.svg" alt="Breakout Pong Brick Contribution Graph" width="100%" />
 </p>
+</details>
 
 ---
 
