@@ -33,16 +33,10 @@ Hi, I'm **Gi∞ (@RobsHs)**. I engineer software under the mantle of **Artifisia
 
 Rather than treating AI as a shortcut, I treat it as an engineering force multiplier: orchestrating frontier neural models, autonomous coding agents, and automated DevSecOps pipelines to rapidly ideate, build, and deliver high-performance applications without compromising architectural integrity.
 
-```
-┌──[ ARTIFISIAL DEVELOPER MANIFESTO ]──────────────────────────────────────────────┐
-│  • Human Direction + AI Velocity : Architecture guided by craft, executed at speed │
-│  • Production-Grade First        : Clean, typed, modular, and maintainable code    │
-│  • Full Spectrum Engineering     : From interactive client UI to hardened backends │
-│  • Continuous Momentum           : Relentless iteration and real shipping cadence  │
-└───────────────────────────────────────────────────────────────────────────────────┘
-```
+> **The Artifisial Developer Philosophy**  
+> *"Architecture guided by craft, accelerated by intelligence. From interactive client interfaces to hardened backend systems, building production-ready software with continuous momentum."*
 
-### 🩸 Core Engineering Pillars
+### ✦ Core Engineering Pillars
 
 - 🧠 **AI-Augmented Engineering**: Designing agentic workflows with Google Gemini, Claude, and deep agent pipelines to accelerate architectural spikes, code generation, and automated refactoring.
 - ⚡ **Modern Full-Stack Velocity**: Building reactive, accessible, and high-performance web systems using **React 19**, **Next.js**, **TypeScript**, and modern CSS architectures.
@@ -56,14 +50,14 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
   <b>SELECTED HIGHLIGHTS &amp; PRODUCTION REPOSITORIES</b>
 </p>
 
-| System &amp; Project | Technical Overview &amp; Capabilities | Technology Matrix | Gateway Access |
-| :--- | :--- | :--- | :---: |
-| <img src="https://skillicons.dev/icons?i=py,githubactions&theme=dark" width="48" /><br><b>AegisScan</b> | <b>Web Posture &amp; Exposure Audit Engine</b><br>Asynchronous security scanner auditing HTTP security headers, sensitive file exposures, secret leakage, and OWASP Top 10 vulnerabilities with automated CI/CD integration. | `Python 3.12`<br>`OWASP Top 10`<br>`AsyncIO`<br>`DevSecOps` | [📦 **SOURCE REPO**](https://github.com/RobsHs/AegisScan) |
-| <img src="https://skillicons.dev/icons?i=react,ts&theme=dark" width="48" /><br><b>QR-PRO</b> | <b>Neural QR Studio &amp; Scanner</b><br>AI-augmented QR generation suite featuring canvas rasterization, fine-grained aesthetic customization, prompt telemetry, and instant bulk vector export. | `TypeScript`<br>`React 19`<br>`Gemini AI`<br>`Tailwind CSS` | [⚡ **LIVE DEMO**](https://qr-pro-ten.vercel.app)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/QR-PRO) |
-| <img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" width="48" /><br><b>CMAKER</b> | <b>Cryptographic Certificate Studio</b><br>WYSIWYG credential design and verification studio with CSV batch generation, 300 DPI vector PDF export, and instant public authenticity verification. | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`jsPDF` | [⚡ **LIVE DEMO**](https://cmakers.vercel.app/)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/CMAKER) |
-| <img src="https://skillicons.dev/icons?i=py,postgres&theme=dark" width="48" /><br><b>SmartNotes Enterprise</b> | <b>Encrypted Knowledge &amp; Document Vault</b><br>Enterprise note-taking backend architecture featuring cryptographic storage models, relational schemas, and low-latency RESTful APIs. | `Python`<br>`SQLAlchemy`<br>`FastAPI`<br>`PostgreSQL` | [📦 **SOURCE REPO**](https://github.com/RobsHs/SmartNotes_Enterprise) |
-| <img src="https://skillicons.dev/icons?i=ts,vite&theme=dark" width="48" /><br><b>WEB-DEV10</b> | <b>Interactive OS Sandbox (Win98)</b><br>Browser-based retro operating system sandbox featuring reactive window management, virtual file system, and vintage interactive components in modern React. | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`Vite` | [📦 **SOURCE REPO**](https://github.com/RobsHs/WEB-DEV10) |
-| <img src="https://skillicons.dev/icons?i=php,mysql&theme=dark" width="48" /><br><b>MARTFLOW</b> | <b>Point-of-Sale &amp; Transaction Terminal</b><br>Full-featured retail inventory engine with role-based privilege controls, transaction audit logs, and receipt processing. | `PHP`<br>`MySQL`<br>`JavaScript`<br>`Bootstrap` | [📦 **SOURCE REPO**](https://github.com/RobsHs/MARTFLOW) |
+| System &amp; Project                                                                                           | Technical Overview &amp; Capabilities                                                                                                                                                                                        | Technology Matrix                                           |                                               Gateway Access                                                |
+| :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------: |
+| <img src="https://skillicons.dev/icons?i=py,githubactions&theme=dark" width="48" /><br><b>AegisScan</b>        | <b>Web Posture &amp; Exposure Audit Engine</b><br>Asynchronous security scanner auditing HTTP security headers, sensitive file exposures, secret leakage, and OWASP Top 10 vulnerabilities with automated CI/CD integration. | `Python 3.12`<br>`OWASP Top 10`<br>`AsyncIO`<br>`DevSecOps` |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/AegisScan)                          |
+| <img src="https://skillicons.dev/icons?i=react,ts&theme=dark" width="48" /><br><b>QR-PRO</b>                   | <b>Neural QR Studio &amp; Scanner</b><br>AI-augmented QR generation suite featuring canvas rasterization, fine-grained aesthetic customization, prompt telemetry, and instant bulk vector export.                            | `TypeScript`<br>`React 19`<br>`Gemini AI`<br>`Tailwind CSS` | [⚡ **LIVE DEMO**](https://qr-pro-ten.vercel.app)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/QR-PRO) |
+| <img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" width="48" /><br><b>CMAKER</b>             | <b>Cryptographic Certificate Studio</b><br>WYSIWYG credential design and verification studio with CSV batch generation, 300 DPI vector PDF export, and instant public authenticity verification.                             | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`jsPDF`     |  [⚡ **LIVE DEMO**](https://cmakers.vercel.app/)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/CMAKER)  |
+| <img src="https://skillicons.dev/icons?i=py,postgres&theme=dark" width="48" /><br><b>SmartNotes Enterprise</b> | <b>Encrypted Knowledge &amp; Document Vault</b><br>Enterprise note-taking backend architecture featuring cryptographic storage models, relational schemas, and low-latency RESTful APIs.                                     | `Python`<br>`SQLAlchemy`<br>`FastAPI`<br>`PostgreSQL`       |                    [📦 **SOURCE REPO**](https://github.com/RobsHs/SmartNotes_Enterprise)                    |
+| <img src="https://skillicons.dev/icons?i=ts,vite&theme=dark" width="48" /><br><b>WEB-DEV10</b>                 | <b>Interactive OS Sandbox (Win98)</b><br>Browser-based retro operating system sandbox featuring reactive window management, virtual file system, and vintage interactive components in modern React.                         | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`Vite`      |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/WEB-DEV10)                          |
+| <img src="https://skillicons.dev/icons?i=php,mysql&theme=dark" width="48" /><br><b>MARTFLOW</b>                | <b>Point-of-Sale &amp; Transaction Terminal</b><br>Full-featured retail inventory engine with role-based privilege controls, transaction audit logs, and receipt processing.                                                 | `PHP`<br>`MySQL`<br>`JavaScript`<br>`Bootstrap`             |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/MARTFLOW)                           |
 
 <p align="center">
   <i>Explore all repositories, forks, and experimental modules on the <a href="https://github.com/RobsHs?tab=repositories">RobsHs Repository Grid</a>.</i>
@@ -74,6 +68,7 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 ## 🛠️ 03 // Core Technical Arsenal
 
 ### 💻 Languages & Runtimes
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,html,css,php,bash&theme=dark" alt="Core Languages" />
@@ -81,6 +76,7 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 </p>
 
 ### 🌐 Frontend & Client Architecture
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,redux&theme=dark" alt="Frontend Frameworks" />
@@ -88,6 +84,7 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 </p>
 
 ### ⚙️ Backend, Persistence & Cloud Infrastructure
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,mysql,firebase,supabase&theme=dark" alt="Backend and Database" />
@@ -95,6 +92,7 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 </p>
 
 ### 🧠 AI Engineering & Agentic Ecosystem
+
 <p align="center">
   <img src="https://img.shields.io/badge/GOOGLE%20GEMINI-FF003C?style=for-the-badge&logo=google&logoColor=FFFFFF" alt="Google Gemini" />
   <img src="https://img.shields.io/badge/CLAUDE%203.7-0C0205?style=for-the-badge&logo=anthropic&logoColor=FF003C" alt="Claude" />
@@ -104,6 +102,7 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 </p>
 
 ### 🧰 Development Tools & Operations
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,vercel,figma,postman&theme=dark" alt="DevOps and Tools" />
@@ -125,10 +124,10 @@ Rather than treating AI as a shortcut, I treat it as an engineering force multip
 
 ---
 
-## 🐍 04.1 // Continuous Contribution Infiltration
+## 🐍 04.1 // Contribution Stream & Activity Graph
 
 <p align="center">
-  <code>[ CONTINUOUS ENGINEERING FLOW // 600+ DAYS ACTIVE RUNTIME ]</code>
+  <code>[ CONTINUOUS ACTIVITY // 600+ DAYS COMMITS RUNTIME ]</code>
 </p>
 
 <p align="center">
