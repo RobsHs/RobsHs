@@ -1,126 +1,204 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
   <defs>
-    <!-- Background Gradient (Obsidian to Midnight Charcoal) -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080306" />
-      <stop offset="50%" stop-color="#0F0409" />
-      <stop offset="100%" stop-color="#060204" />
+    <!-- Deep Obsidian Charcoal Background -->
+    <linearGradient id="obsidianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060103" />
+      <stop offset="50%" stop-color="#0E0308" />
+      <stop offset="100%" stop-color="#040102" />
     </linearGradient>
 
-    <!-- Ambient Subtle Crimson Radial Glow -->
-    <radialGradient id="radialGlow" cx="80%" cy="25%" r="70%">
-      <stop offset="0%" stop-color="#FF003C" stop-opacity="0.16" />
+    <!-- Deep Ambient Crimson Aura Gradients -->
+    <radialGradient id="auraLeft" cx="15%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FF003C" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#FF003C" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#FF003C" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auraRight" cx="85%" cy="65%" r="70%">
+      <stop offset="0%" stop-color="#FF1A4E" stop-opacity="0.16" />
       <stop offset="50%" stop-color="#FF003C" stop-opacity="0.04" />
       <stop offset="100%" stop-color="#FF003C" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Animated Shimmer Gradient for Branding -->
-    <linearGradient id="shimmerTitle" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="40%" stop-color="#FFFFFF" />
-      <stop offset="70%" stop-color="#FF597B" />
-      <stop offset="100%" stop-color="#FFFFFF" />
-      <animate attributeName="x1" values="-100%;100%" dur="7s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="0%;200%" dur="7s" repeatCount="indefinite" />
+    <!-- Wave Gradients -->
+    <linearGradient id="waveFillGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF003C" stop-opacity="0.14" />
+      <stop offset="40%" stop-color="#B3002D" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#050103" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Monogram Gradient -->
-    <linearGradient id="monogramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF003C" />
+    <linearGradient id="waveFillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E63" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#73001C" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#050103" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#990024" />
+      <stop offset="35%" stop-color="#FF003C" />
+      <stop offset="70%" stop-color="#FF597B" />
+      <stop offset="100%" stop-color="#FF003C" />
+    </linearGradient>
+
+    <linearGradient id="brightStream" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF758F" />
+      <stop offset="50%" stop-color="#FFA4B8" />
       <stop offset="100%" stop-color="#FF4D6D" />
     </linearGradient>
 
-    <!-- Subtle Glow Filter for Monogram -->
-    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Glow Filter for Waves -->
+    <filter id="crimsonGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
+    <!-- Clip Path for Base Card -->
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="900" height="220" rx="16" />
+    </clipPath>
   </defs>
 
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+
+    /* Flow Animations: Seamless Hardware-Accelerated Translations */
+    .flow-wave-1 {
+      animation: waveFlow 22s linear infinite;
+    }
+    .flow-wave-2 {
+      animation: waveFlow 15s linear infinite reverse;
+    }
+    .flow-wave-3 {
+      animation: waveFlow 10s linear infinite;
+    }
+    .flow-wave-4 {
+      animation: waveFlow 18s linear infinite reverse;
+    }
+
+    @keyframes waveFlow {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(-450px, 0, 0); }
+    }
+
+    .pulse-dot {
+      animation: pulseAnim 2.2s ease-in-out infinite;
+    }
+    @keyframes pulseAnim {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+
+    .ambient-breathe {
+      animation: breatheAnim 6s ease-in-out infinite;
+    }
+    @keyframes breatheAnim {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
   </style>
 
-  <!-- Base Card Frame -->
-  <rect x="1" y="1" width="898" height="198" rx="14" fill="url(#bgGrad)" stroke="#320C17" stroke-width="1.2" />
-  <!-- Ambient Atmosphere -->
-  <rect x="1" y="1" width="898" height="198" rx="14" fill="url(#radialGlow)" />
+  <!-- Base Card with Clip -->
+  <g clip-path="url(#cardClip)">
+    <!-- Base Background -->
+    <rect x="0" y="0" width="900" height="220" fill="url(#obsidianBg)" />
 
-  <!-- Left: Bespoke Monogram Crest -->
-  <g transform="translate(42, 50)">
-    <!-- Container with subtle inner shadow feel -->
-    <rect x="0" y="0" width="98" height="98" rx="20" fill="#130408" stroke="#FF003C" stroke-width="1.2" stroke-opacity="0.6" />
-    
-    <!-- Precision Inner Ring -->
-    <rect x="5" y="5" width="88" height="88" rx="16" fill="none" stroke="#FF2E63" stroke-width="0.8" stroke-opacity="0.25" stroke-dasharray="4,4" />
-    
-    <!-- Stylized Geometric Infinity Path -->
-    <path d="M 32 49 C 32 40 40 35 46 41 C 52 47 54 49 60 55 C 66 61 74 56 74 49 C 74 42 66 37 60 43 C 54 49 52 51 46 57 C 40 63 32 58 32 49 Z" 
-          fill="none" 
-          stroke="url(#monogramGrad)" 
-          stroke-width="3.8" 
-          stroke-linecap="round" 
-          stroke-linejoin="round"
-          filter="url(#subtleGlow)" />
+    <!-- Ambient Breathing Crimson Auras -->
+    <g class="ambient-breathe">
+      <rect x="0" y="0" width="900" height="220" fill="url(#auraLeft)" />
+      <rect x="0" y="0" width="900" height="220" fill="url(#auraRight)" />
+    </g>
 
-    <!-- Center Core Node -->
-    <circle cx="49" cy="49" r="2.8" fill="#FFFFFF">
-      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite" />
-    </circle>
+    <!-- LAYER 1: Deep Fluid Wave Fill (Slowest) -->
+    <g class="flow-wave-1" style="will-change: transform;">
+      <path d="M 0 140.0 C 81.0 114.0, 144.0 114.0, 225.0 140.0 C 306.0 166.0, 369.0 166.0, 450.0 140.0 C 531.0 114.0, 594.0 114.0, 675.0 140.0 C 756.0 166.0, 819.0 166.0, 900.0 140.0 C 981.0 114.0, 1044.0 114.0, 1125.0 140.0 C 1206.0 166.0, 1269.0 166.0, 1350.0 140.0 C 1431.0 114.0, 1494.0 114.0, 1575.0 140.0 C 1656.0 166.0, 1719.0 166.0, 1800.0 140.0  L 1800 220 L 0 220 Z" fill="url(#waveFillGrad1)" />
+      <path d="M 0 140.0 C 81.0 114.0, 144.0 114.0, 225.0 140.0 C 306.0 166.0, 369.0 166.0, 450.0 140.0 C 531.0 114.0, 594.0 114.0, 675.0 140.0 C 756.0 166.0, 819.0 166.0, 900.0 140.0 C 981.0 114.0, 1044.0 114.0, 1125.0 140.0 C 1206.0 166.0, 1269.0 166.0, 1350.0 140.0 C 1431.0 114.0, 1494.0 114.0, 1575.0 140.0 C 1656.0 166.0, 1719.0 166.0, 1800.0 140.0 " fill="none" stroke="#FF003C" stroke-width="1.2" stroke-opacity="0.3" />
+    </g>
+
+    <!-- LAYER 2: Counter-Current Wave (Medium Speed) -->
+    <g class="flow-wave-2" style="will-change: transform;">
+      <path d="M 0 125.0 C 81.0 105.0, 144.0 105.0, 225.0 125.0 C 306.0 145.0, 369.0 145.0, 450.0 125.0 C 531.0 105.0, 594.0 105.0, 675.0 125.0 C 756.0 145.0, 819.0 145.0, 900.0 125.0 C 981.0 105.0, 1044.0 105.0, 1125.0 125.0 C 1206.0 145.0, 1269.0 145.0, 1350.0 125.0 C 1431.0 105.0, 1494.0 105.0, 1575.0 125.0 C 1656.0 145.0, 1719.0 145.0, 1800.0 125.0  L 1800 220 L 0 220 Z" fill="url(#waveFillGrad2)" />
+      <path d="M 0 125.0 C 81.0 105.0, 144.0 105.0, 225.0 125.0 C 306.0 145.0, 369.0 145.0, 450.0 125.0 C 531.0 105.0, 594.0 105.0, 675.0 125.0 C 756.0 145.0, 819.0 145.0, 900.0 125.0 C 981.0 105.0, 1044.0 105.0, 1125.0 125.0 C 1206.0 145.0, 1269.0 145.0, 1350.0 125.0 C 1431.0 105.0, 1494.0 105.0, 1575.0 125.0 C 1656.0 145.0, 1719.0 145.0, 1800.0 125.0 " fill="none" stroke="url(#ribbonGrad)" stroke-width="2" stroke-opacity="0.65" filter="url(#crimsonGlow)" />
+    </g>
+
+    <!-- LAYER 3: Ethereal Ambient Wave -->
+    <g class="flow-wave-4" style="will-change: transform;">
+      <path d="M 0 115.0 C 81.0 103.0, 144.0 103.0, 225.0 115.0 C 306.0 127.0, 369.0 127.0, 450.0 115.0 C 531.0 103.0, 594.0 103.0, 675.0 115.0 C 756.0 127.0, 819.0 127.0, 900.0 115.0 C 981.0 103.0, 1044.0 103.0, 1125.0 115.0 C 1206.0 127.0, 1269.0 127.0, 1350.0 115.0 C 1431.0 103.0, 1494.0 103.0, 1575.0 115.0 C 1656.0 127.0, 1719.0 127.0, 1800.0 115.0 " fill="none" stroke="#FF2E63" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="8,6" />
+    </g>
+
+    <!-- LAYER 4: Bright Glowing Energy Stream (Foreground Flow) -->
+    <g class="flow-wave-3" style="will-change: transform;">
+      <path d="M 0 155.0 C 81.0 140.0, 144.0 140.0, 225.0 155.0 C 306.0 170.0, 369.0 170.0, 450.0 155.0 C 531.0 140.0, 594.0 140.0, 675.0 155.0 C 756.0 170.0, 819.0 170.0, 900.0 155.0 C 981.0 140.0, 1044.0 140.0, 1125.0 155.0 C 1206.0 170.0, 1269.0 170.0, 1350.0 155.0 C 1431.0 140.0, 1494.0 140.0, 1575.0 155.0 C 1656.0 170.0, 1719.0 170.0, 1800.0 155.0 " fill="none" stroke="url(#brightStream)" stroke-width="2.2" stroke-opacity="0.85" filter="url(#crimsonGlow)" />
+    </g>
+
+    <!-- Subtle Floating Light Nodes along the Stream -->
+    <g>
+      <circle cx="210" cy="142" r="2.5" fill="#FFA4B8" opacity="0.8" />
+      <circle cx="480" cy="158" r="3" fill="#FFFFFF" opacity="0.9" filter="url(#crimsonGlow)" />
+      <circle cx="730" cy="128" r="2" fill="#FF758F" opacity="0.7" />
+    </g>
   </g>
 
-  <!-- Center Content: Typographic Mastery -->
-  <g transform="translate(162, 52)">
-    <!-- Brand Flag & Status -->
+  <!-- Subtle Outer Border with Crimson Glow Accent -->
+  <rect x="1" y="1" width="898" height="218" rx="15" fill="none" stroke="#3A0D18" stroke-width="1.4" />
+
+  <!-- LEFT: Bespoke Infinity-Flow Monogram Badge -->
+  <g transform="translate(42, 54)">
+    <!-- High-End Dark Squircle with Crimson Accent -->
+    <rect x="0" y="0" width="102" height="102" rx="22" fill="#110307" stroke="#FF003C" stroke-width="1.4" stroke-opacity="0.75" filter="url(#crimsonGlow)" />
+    <rect x="5" y="5" width="92" height="92" rx="18" fill="none" stroke="#FF2E63" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,3" />
+
+    <!-- Flowing Infinity Symbol -->
+    <path d="M 33 51 C 33 42 41 37 47 43 C 53 49 56 52 62 58 C 68 64 77 59 77 51 C 77 43 68 38 62 44 C 56 50 53 53 47 59 C 41 65 33 60 33 51 Z"
+          fill="none"
+          stroke="url(#ribbonGrad)"
+          stroke-width="4.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          filter="url(#crimsonGlow)" />
+
+    <!-- Center Pulse Beacon -->
+    <circle cx="51" cy="51" r="3" fill="#FFFFFF" class="pulse-dot" />
+  </g>
+
+  <!-- CENTER: Typographic Authority & Hierarchy -->
+  <g transform="translate(166, 52)">
+    <!-- Flag / Brand Tagline -->
     <g transform="translate(0, 4)">
-      <text x="0" y="10" fill="#FF003C" class="mono" font-size="11.5" font-weight="700" letter-spacing="2">
-        // ARTIFISIAL DEVELOPER
+      <!-- Glowing dot -->
+      <circle cx="5" cy="8" r="4" fill="#FF003C" class="pulse-dot" />
+      <text x="16" y="12" fill="#FF003C" class="mono" font-size="11.5" font-weight="700" letter-spacing="2">
+        ARTIFISIAL DEVELOPER
       </text>
     </g>
 
-    <!-- Main Title / Identity -->
-    <text x="0" y="46" fill="url(#shimmerTitle)" class="sans" font-size="30" font-weight="900" letter-spacing="-0.5">
+    <!-- Main Identity Title -->
+    <text x="0" y="48" fill="#FFFFFF" class="sans" font-size="32" font-weight="900" letter-spacing="-0.5">
       Gi∞ <tspan fill="#A1A1AA" font-weight="400" font-size="24">(@RobsHs)</tspan>
     </text>
 
-    <!-- Role Subheading -->
-    <text x="0" y="72" fill="#E4E4E7" class="sans" font-size="15" font-weight="500">
-      AI-Augmented Full-Stack Architect &amp; Systems Engineer
+    <!-- Role Subtitle -->
+    <text x="0" y="75" fill="#E4E4E7" class="sans" font-size="15" font-weight="500">
+      Full-Stack Systems Architect &amp; AI Engineering
     </text>
 
-    <!-- High-Impact Provenance & Proof-of-Work Pills -->
-    <g transform="translate(0, 92)">
-      <!-- Pill 1: Commits -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="134" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.6" />
-        <text x="67" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">⚡ 15.6K+ COMMITS</text>
-      </g>
+    <!-- Sleek Proof-of-Work Tags -->
+    <g transform="translate(0, 95)">
+      <rect x="0" y="0" width="136" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.65" />
+      <text x="68" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">⚡ 15.6K+ COMMITS</text>
 
-      <!-- Pill 2: Streak -->
-      <g transform="translate(142, 0)">
-        <rect x="0" y="0" width="148" height="26" rx="6" fill="#18040A" stroke="#FF2E63" stroke-width="1" stroke-opacity="0.6" />
-        <text x="74" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">🔥 614-DAY STREAK</text>
-      </g>
+      <rect x="144" y="0" width="150" height="26" rx="6" fill="#18040A" stroke="#FF2E63" stroke-width="1" stroke-opacity="0.65" />
+      <text x="219" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">🔥 614-DAY STREAK</text>
 
-      <!-- Pill 3: Location -->
-      <g transform="translate(298, 0)">
-        <rect x="0" y="0" width="168" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.4" />
-        <text x="84" y="17" fill="#A1A1AA" class="mono" font-size="11" font-weight="600" text-anchor="middle">📍 PACITAN, ID [UTC+7]</text>
-      </g>
+      <rect x="302" y="0" width="170" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.4" />
+      <text x="387" y="17" fill="#A1A1AA" class="mono" font-size="11" font-weight="600" text-anchor="middle">📍 PACITAN, ID [UTC+7]</text>
     </g>
   </g>
 
-  <!-- Right: Live Deployment Pulse Status -->
-  <g transform="translate(712, 48)">
-    <rect x="0" y="0" width="148" height="30" rx="15" fill="#140408" stroke="#3A0D18" stroke-width="1.2" />
-    
-    <!-- Pulsing Live Dot -->
-    <circle cx="16" cy="15" r="4.5" fill="#FF003C">
-      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
-    </circle>
-    
+  <!-- RIGHT: Live Active Radar Beacon -->
+  <g transform="translate(714, 48)">
+    <rect x="0" y="0" width="146" height="30" rx="15" fill="#150408" stroke="#3D0E1A" stroke-width="1.2" />
+    <circle cx="16" cy="15" r="4.5" fill="#FF003C" class="pulse-dot" />
     <text x="28" y="19" fill="#F4F4F5" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.5">
       LIVE &amp; SHIPPING
     </text>
