@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/BRAND-ARTIFISIAL%20DEVELOPER-0C0205?style=for-the-badge&logo=probot&logoColor=FF003C&labelColor=000000" alt="Artifisial Developer" />
   <img src="https://img.shields.io/badge/DOMAIN-FULL--STACK%20%26%20AI%20SYSTEMS-FF003C?style=for-the-badge&logo=react&logoColor=FFFFFF" alt="Full-Stack Domain" />
-  <img src="https://img.shields.io/badge/LOCATION-JAKARTA%2C%20ID-0C0205?style=for-the-badge&logo=googlemaps&logoColor=FF003C&labelColor=1a0409" alt="Location" />
+  <img src="https://img.shields.io/badge/LOCATION-PACITAN%2C%20ID-0C0205?style=for-the-badge&logo=googlemaps&logoColor=FF003C&labelColor=1a0409" alt="Location" />
   <a href="https://github.com/RobsHs">
     <img src="https://komarev.com/ghpvc/?username=RobsHs&label=PROFILE_VIEWS&color=FF003C&style=for-the-badge&labelColor=0C0205" alt="Profile Views" />
   </a>
