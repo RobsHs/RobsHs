@@ -1,29 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200">
   <defs>
-    <!-- Background Gradient (Clean Deep Obsidian with Subtle Crimson Radial) -->
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090507" />
-      <stop offset="100%" stop-color="#040203" />
+    <!-- Background Gradient (Obsidian to Midnight Charcoal) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080306" />
+      <stop offset="50%" stop-color="#0F0409" />
+      <stop offset="100%" stop-color="#060204" />
     </linearGradient>
 
-    <!-- Subtle Radial Glow on the Right -->
-    <radialGradient id="ambientCrimson" cx="85%" cy="30%" r="65%">
-      <stop offset="0%" stop-color="#FF003C" stop-opacity="0.12" />
+    <!-- Ambient Subtle Crimson Radial Glow -->
+    <radialGradient id="radialGlow" cx="80%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#FF003C" stop-opacity="0.16" />
+      <stop offset="50%" stop-color="#FF003C" stop-opacity="0.04" />
       <stop offset="100%" stop-color="#FF003C" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Icon Gradient -->
-    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF003C" />
-      <stop offset="100%" stop-color="#FF3366" />
+    <!-- Animated Shimmer Gradient for Branding -->
+    <linearGradient id="shimmerTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#FF597B" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+      <animate attributeName="x1" values="-100%;100%" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%" dur="7s" repeatCount="indefinite" />
     </linearGradient>
 
-    <!-- Subtle Text Gradient for Title -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="70%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#FFA4B8" />
+    <!-- Monogram Gradient -->
+    <linearGradient id="monogramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF003C" />
+      <stop offset="100%" stop-color="#FF4D6D" />
     </linearGradient>
+
+    <!-- Subtle Glow Filter for Monogram -->
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
 
   <style>
@@ -31,57 +42,87 @@
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
   </style>
 
-  <!-- Base Card Container -->
-  <rect x="1" y="1" width="898" height="178" rx="12" fill="url(#cardBg)" stroke="#2D0D16" stroke-width="1.2" />
-  <!-- Ambient Soft Glow -->
-  <rect x="1" y="1" width="898" height="178" rx="12" fill="url(#ambientCrimson)" />
+  <!-- Base Card Frame -->
+  <rect x="1" y="1" width="898" height="198" rx="14" fill="url(#bgGrad)" stroke="#320C17" stroke-width="1.2" />
+  <!-- Ambient Atmosphere -->
+  <rect x="1" y="1" width="898" height="198" rx="14" fill="url(#radialGlow)" />
 
-  <!-- Left: Geometric Logo Mark -->
-  <g transform="translate(40, 48)">
-    <!-- Icon Container -->
-    <rect x="0" y="0" width="84" height="84" rx="16" fill="#130408" stroke="#FF003C" stroke-width="1.2" stroke-opacity="0.5" />
+  <!-- Left: Bespoke Monogram Crest -->
+  <g transform="translate(42, 50)">
+    <!-- Container with subtle inner shadow feel -->
+    <rect x="0" y="0" width="98" height="98" rx="20" fill="#130408" stroke="#FF003C" stroke-width="1.2" stroke-opacity="0.6" />
     
-    <!-- Stylized Geometric Infinity & Core (Crafted Curves) -->
-    <path d="M 28 42 C 28 35 34 31 39 36 C 44 41 46 43 51 48 C 56 53 62 49 62 42 C 62 35 56 31 51 36 C 46 41 44 43 39 48 C 34 53 28 49 28 42 Z" 
+    <!-- Precision Inner Ring -->
+    <rect x="5" y="5" width="88" height="88" rx="16" fill="none" stroke="#FF2E63" stroke-width="0.8" stroke-opacity="0.25" stroke-dasharray="4,4" />
+    
+    <!-- Stylized Geometric Infinity Path -->
+    <path d="M 32 49 C 32 40 40 35 46 41 C 52 47 54 49 60 55 C 66 61 74 56 74 49 C 74 42 66 37 60 43 C 54 49 52 51 46 57 C 40 63 32 58 32 49 Z" 
           fill="none" 
-          stroke="url(#iconGrad)" 
-          stroke-width="3.5" 
+          stroke="url(#monogramGrad)" 
+          stroke-width="3.8" 
           stroke-linecap="round" 
-          stroke-linejoin="round" />
+          stroke-linejoin="round"
+          filter="url(#subtleGlow)" />
 
-    <!-- Center Accent Dot -->
-    <circle cx="45" cy="42" r="2.5" fill="#FFFFFF" />
+    <!-- Center Core Node -->
+    <circle cx="49" cy="49" r="2.8" fill="#FFFFFF">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- Middle: Typography Hierarchy -->
-  <g transform="translate(148, 52)">
-    <!-- Small Category Label -->
-    <text x="0" y="14" fill="#FF003C" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">
-      // ARTIFISIAL DEVELOPER
-    </text>
-
-    <!-- Main Name / Identity -->
-    <text x="0" y="44" fill="url(#titleGrad)" class="sans" font-size="28" font-weight="800" letter-spacing="-0.5">
-      Gi∞ <tspan fill="#71717A" font-weight="400">(@RobsHs)</tspan>
-    </text>
-
-    <!-- Role / Discipline -->
-    <text x="0" y="68" fill="#A1A1AA" class="sans" font-size="14" font-weight="500">
-      Full-Stack Software Architect &amp; AI Systems Engineer
-    </text>
-
-    <!-- Tags Row -->
-    <g transform="translate(0, 84)">
-      <text x="0" y="12" fill="#71717A" class="mono" font-size="11.5">
-        TypeScript <tspan fill="#FF003C">•</tspan> Next.js <tspan fill="#FF003C">•</tspan> React 19 <tspan fill="#FF003C">•</tspan> Python <tspan fill="#FF003C">•</tspan> DevSecOps <tspan fill="#FF003C">•</tspan> Pacitan, ID [UTC+7]
+  <!-- Center Content: Typographic Mastery -->
+  <g transform="translate(162, 52)">
+    <!-- Brand Flag & Status -->
+    <g transform="translate(0, 4)">
+      <text x="0" y="10" fill="#FF003C" class="mono" font-size="11.5" font-weight="700" letter-spacing="2">
+        // ARTIFISIAL DEVELOPER
       </text>
+    </g>
+
+    <!-- Main Title / Identity -->
+    <text x="0" y="46" fill="url(#shimmerTitle)" class="sans" font-size="30" font-weight="900" letter-spacing="-0.5">
+      Gi∞ <tspan fill="#A1A1AA" font-weight="400" font-size="24">(@RobsHs)</tspan>
+    </text>
+
+    <!-- Role Subheading -->
+    <text x="0" y="72" fill="#E4E4E7" class="sans" font-size="15" font-weight="500">
+      AI-Augmented Full-Stack Architect &amp; Systems Engineer
+    </text>
+
+    <!-- High-Impact Provenance & Proof-of-Work Pills -->
+    <g transform="translate(0, 92)">
+      <!-- Pill 1: Commits -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="134" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.6" />
+        <text x="67" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">⚡ 15.6K+ COMMITS</text>
+      </g>
+
+      <!-- Pill 2: Streak -->
+      <g transform="translate(142, 0)">
+        <rect x="0" y="0" width="148" height="26" rx="6" fill="#18040A" stroke="#FF2E63" stroke-width="1" stroke-opacity="0.6" />
+        <text x="74" y="17" fill="#FFE5EC" class="mono" font-size="11" font-weight="700" text-anchor="middle">🔥 614-DAY STREAK</text>
+      </g>
+
+      <!-- Pill 3: Location -->
+      <g transform="translate(298, 0)">
+        <rect x="0" y="0" width="168" height="26" rx="6" fill="#18040A" stroke="#FF003C" stroke-width="1" stroke-opacity="0.4" />
+        <text x="84" y="17" fill="#A1A1AA" class="mono" font-size="11" font-weight="600" text-anchor="middle">📍 PACITAN, ID [UTC+7]</text>
+      </g>
     </g>
   </g>
 
-  <!-- Right: Minimalist Status Pill -->
-  <g transform="translate(710, 48)">
-    <rect x="0" y="0" width="150" height="28" rx="14" fill="#140408" stroke="#33101A" stroke-width="1" />
-    <circle cx="14" cy="14" r="4" fill="#FF003C" />
-    <text x="26" y="18" fill="#E4E4E7" class="mono" font-size="10" font-weight="600" letter-spacing="0.5">BUILDING &amp; ACTIVE</text>
+  <!-- Right: Live Deployment Pulse Status -->
+  <g transform="translate(712, 48)">
+    <rect x="0" y="0" width="148" height="30" rx="15" fill="#140408" stroke="#3A0D18" stroke-width="1.2" />
+    
+    <!-- Pulsing Live Dot -->
+    <circle cx="16" cy="15" r="4.5" fill="#FF003C">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    
+    <text x="28" y="19" fill="#F4F4F5" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.5">
+      LIVE &amp; SHIPPING
+    </text>
   </g>
 </svg>
