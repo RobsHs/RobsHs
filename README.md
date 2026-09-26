@@ -147,7 +147,7 @@ Interested in building intelligent web systems, collaborating on open-source sof
   <a href="https://linkedin.com/in/" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=FF003C" alt="LinkedIn" />
   </a>
-  <a href="https://instagram.com/" target="_blank">
+  <a href="https://instagram.com/dodot_coy" target="_blank">
     <img src="https://img.shields.io/badge/INSTAGRAM-000000?style=for-the-badge&logo=instagram&logoColor=FF003C" alt="Instagram" />
   </a>
   <a href="mailto:?subject=ARTIFISIAL_DEVELOPER%20%3A%3A%20ENGINEERING%20COLLABORATION" target="_blank">
