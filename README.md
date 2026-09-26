@@ -38,7 +38,7 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 
 ### ✦ Core Engineering Specializations
 
-- 🧠 **AI-Augmented System Engineering**: Orchestrating frontier AI models (Google Gemini 2.0, Claude 3.7, Deep Agentic Pipelines) to accelerate complex architectural spikes, automated security analysis, and intelligent web integrations.
+- 🧠 **AI-Augmented System Engineering**: Orchestrating frontier AI models (Google Gemini 3.8, Claude 3.7, Deep Agentic Pipelines) to accelerate complex architectural spikes, automated security analysis, and intelligent web integrations.
 - ⚡ **Modern Full-Stack Architecture**: Engineering blisteringly fast, type-safe, and modular web platforms utilizing **React 19**, **Next.js 15**, **TypeScript**, and modern design systems.
 - 🛡️ **DevSecOps & Practical Tooling**: Authoring high-speed security exposure auditors ([`AegisScan`](https://github.com/RobsHs/AegisScan)), developer CLI utilities, and robust relational storage architectures with Python and Node.js.
 
