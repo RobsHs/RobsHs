@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=%3E_+Artifisial+Developer+%2F%2F+AI-Augmented+Engineering;%3E_+Gi%E2%88%9E+(%40RobsHs)+%E2%80%A2+Pacitan%2C+Indonesia;%3E_+15%2C600%2B+Commits+%E2%80%A2+610%2B+Days+Unbroken+Streak;%3E_+TypeScript+%E2%80%A2+Next.js+15+%E2%80%A2+React+19+%E2%80%A2+Python;%3E_+Craftsmanship+Guided+by+Human%2C+Accelerated+by+AI&font=Fira+Code&center=true&width=760&height=45&color=FF003C&vCenter=true&size=16" alt="Artifisial Developer Prompt" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=%3E_+Artifisial+Developer+%2F%2F+AI-Augmented+Engineering;%3E_+Gi%E2%88%9E+(%40RobsHs)+%E2%80%A2+Pacitan%2C+Indonesia;%3E_+16%2C300%2B+Commits+%E2%80%A2+640%2B+Days+Unbroken+Streak;%3E_+TypeScript+%E2%80%A2+Next.js+15+%E2%80%A2+React+19+%E2%80%A2+Python;%3E_+Craftsmanship+Guided+by+Human%2C+Accelerated+by+AI&font=Fira+Code&center=true&width=760&height=45&color=FF003C&vCenter=true&size=16" alt="Artifisial Developer Prompt" />
 </p>
 
 <p align="center">
@@ -50,14 +50,16 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
   <b>SELECTED PRODUCTION SYSTEMS &amp; OPEN-SOURCE TOOLING</b>
 </p>
 
-| System &amp; Project                                                                                           | Technical Overview &amp; Capabilities                                                                                                                                                                                           | Technology Matrix                                           |                                               Gateway Access                                                |
-| :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------: |
-| <img src="https://skillicons.dev/icons?i=py,githubactions&theme=dark" width="48" /><br><b>AegisScan</b>        | <b>Web Posture &amp; Exposure Audit Engine</b><br>Asynchronous security scanner auditing HTTP security headers, sensitive exposed endpoints, secret leakage, and OWASP Top 10 vulnerabilities with automated CI/CD integration. | `Python 3.12`<br>`OWASP Top 10`<br>`AsyncIO`<br>`DevSecOps` |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/AegisScan)                          |
-| <img src="https://skillicons.dev/icons?i=react,ts&theme=dark" width="48" /><br><b>QR-PRO</b>                   | <b>Neural QR Studio &amp; Scanner</b><br>AI-augmented QR generation suite featuring canvas rasterization, fine-grained aesthetic customization, prompt telemetry, and instant bulk vector export.                               | `TypeScript`<br>`React 19`<br>`Gemini AI`<br>`Tailwind CSS` | [⚡ **LIVE DEMO**](https://qr-pro-ten.vercel.app)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/QR-PRO) |
-| <img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" width="48" /><br><b>CMAKER</b>             | <b>Cryptographic Certificate Studio</b><br>WYSIWYG credential design and verification studio with CSV batch generation, 300 DPI vector PDF export, and instant public authenticity verification.                                | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`jsPDF`     |  [⚡ **LIVE DEMO**](https://cmakers.vercel.app/)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/CMAKER)  |
-| <img src="https://skillicons.dev/icons?i=py,postgres&theme=dark" width="48" /><br><b>SmartNotes Enterprise</b> | <b>Encrypted Knowledge &amp; Document Vault</b><br>Enterprise note-taking backend architecture featuring cryptographic storage models, relational schemas, and low-latency RESTful APIs.                                        | `Python`<br>`SQLAlchemy`<br>`FastAPI`<br>`PostgreSQL`       |                    [📦 **SOURCE REPO**](https://github.com/RobsHs/SmartNotes_Enterprise)                    |
-| <img src="https://skillicons.dev/icons?i=ts,vite&theme=dark" width="48" /><br><b>WEB-DEV10</b>                 | <b>Interactive OS Sandbox (Win98)</b><br>Browser-based retro operating system sandbox featuring reactive window management, virtual file system, and vintage interactive components in modern React.                            | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`Vite`      |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/WEB-DEV10)                          |
-| <img src="https://skillicons.dev/icons?i=php,mysql&theme=dark" width="48" /><br><b>MARTFLOW</b>                | <b>Point-of-Sale &amp; Transaction Terminal</b><br>Full-featured retail inventory engine with role-based privilege controls, transaction audit logs, and receipt processing.                                                    | `PHP`<br>`MySQL`<br>`JavaScript`<br>`Bootstrap`             |                          [📦 **SOURCE REPO**](https://github.com/RobsHs/MARTFLOW)                           |
+| System &amp; Project | Technical Overview &amp; Capabilities | Technology Matrix | Gateway Access |
+| :--- | :--- | :--- | :---: |
+| <img src="https://skillicons.dev/icons?i=nodejs,js&theme=dark" width="48" /><br><b>DevAtlas</b> | <b>Computer Science Knowledge &amp; System Design Engine</b><br>Open-source, zero-dependency algorithm &amp; data structure library (100+ modules), system design architectural patterns, and interactive visual web dashboard with terminal CLI explorer. | `Node.js`<br>`Zero-Dep`<br>`System Design`<br>`Algorithms` | [📦 **SOURCE REPO**](https://github.com/RobsHs/devatlas) |
+| <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" width="48" /><br><b>OmniTools Ultimate</b> | <b>Full-Stack Developer Suite &amp; Zero-Mock Media Engine</b><br>Production-grade developer utility platform featuring iOS 26 Liquid-Glass aesthetics, zero-mock backend computation, media transcoding pipelines, and Google Gemini AI Flash neural telemetry. | `Node.js 20+`<br>`Express v5`<br>`Tailwind CSS`<br>`Gemini AI` | [📦 **SOURCE REPO**](https://github.com/RobsHs/omnitools-ultimate) |
+| <img src="https://skillicons.dev/icons?i=py,githubactions&theme=dark" width="48" /><br><b>PyAST-Guard</b> | <b>AST-Powered Static Application Security Testing (SAST)</b><br>High-performance Python AST lexical parser detecting OWASP Top 10 vulnerabilities (SQLi, Command Injection, Insecure Deserialization) with native SARIF 2.1.0 GitHub Security integration. | `Python 3.12`<br>`Python AST`<br>`OWASP Top 10`<br>`SARIF 2.1.0` | [📦 **SOURCE REPO**](https://github.com/RobsHs/pyast-guard) |
+| <img src="https://skillicons.dev/icons?i=py,docker&theme=dark" width="48" /><br><b>AegisScan</b> | <b>Web Posture &amp; Exposure Audit Engine</b><br>Asynchronous security scanner auditing HTTP security headers, sensitive exposed endpoints, secret leakage, and OWASP Top 10 vulnerabilities with automated CI/CD integration. | `Python 3.12`<br>`OWASP Top 10`<br>`AsyncIO`<br>`DevSecOps` | [📦 **SOURCE REPO**](https://github.com/RobsHs/AegisScan) |
+| <img src="https://skillicons.dev/icons?i=react,ts&theme=dark" width="48" /><br><b>QR-PRO</b> | <b>Neural QR Studio &amp; Scanner</b><br>AI-augmented QR generation suite featuring canvas rasterization, fine-grained aesthetic customization, prompt telemetry, and instant bulk vector export. | `TypeScript`<br>`React 19`<br>`Gemini AI`<br>`Tailwind CSS` | [⚡ **LIVE DEMO**](https://qr-pro-ten.vercel.app)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/QR-PRO) |
+| <img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" width="48" /><br><b>CMAKER</b> | <b>Cryptographic Certificate Studio</b><br>WYSIWYG credential design and verification studio with CSV batch generation, 300 DPI vector PDF export, and instant public authenticity verification. | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`jsPDF` | [⚡ **LIVE DEMO**](https://cmakers.vercel.app/)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/CMAKER) |
+| <img src="https://skillicons.dev/icons?i=py,postgres&theme=dark" width="48" /><br><b>SmartNotes Enterprise</b> | <b>Encrypted Knowledge &amp; Document Vault</b><br>Enterprise note-taking backend architecture featuring cryptographic storage models, relational schemas, and low-latency RESTful APIs. | `Python`<br>`SQLAlchemy`<br>`FastAPI`<br>`PostgreSQL` | [📦 **SOURCE REPO**](https://github.com/RobsHs/SmartNotes_Enterprise) |
+| <img src="https://skillicons.dev/icons?i=ts,vite&theme=dark" width="48" /><br><b>WEB-DEV10</b> | <b>Interactive OS Sandbox (Win98)</b><br>Browser-based retro operating system sandbox featuring reactive window management, virtual file system, and vintage interactive components in modern React. | `TypeScript`<br>`React 19`<br>`Tailwind CSS`<br>`Vite` | [📦 **SOURCE REPO**](https://github.com/RobsHs/WEB-DEV10) |
 
 <p align="center">
   <i>Explore all repositories, forks, and experimental modules on the <a href="https://github.com/RobsHs?tab=repositories">RobsHs Repository Grid</a>.</i>
@@ -114,12 +116,12 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 ## 📊 04 // Telemetry &amp; Activity Metrics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1788704592" alt="RobsHs Crimson Stats" height="195" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1788704592" alt="Top Weaponry" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1791731045" alt="RobsHs Crimson Stats" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1791731045" alt="Top Weaponry" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1788704592" alt="Execution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1791731045" alt="Execution Streak" />
 </p>
 
 ---
@@ -127,11 +129,11 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 ## 🐍 04.1 // Contribution Stream &amp; Activity Graph
 
 <p align="center">
-  <code>[ CONTINUOUS ACTIVITY // 600+ DAYS COMMITS RUNTIME ]</code>
+  <code>[ CONTINUOUS ACTIVITY // 640+ DAYS COMMITS RUNTIME ]</code>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1788704592" alt="Contribution Grid Snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1791731045" alt="Contribution Grid Snake" width="100%" />
 </p>
 
 ---
