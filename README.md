@@ -120,12 +120,12 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 ## 📊 04 // Telemetry &amp; Activity Metrics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1792951516" alt="RobsHs Crimson Stats" height="195" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1792951516" alt="Top Weaponry" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1792953450" alt="RobsHs Crimson Stats" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1792953450" alt="Top Weaponry" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1792951516" alt="Execution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1792953450" alt="Execution Streak" />
 </p>
 
 ---
@@ -137,7 +137,7 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1792951516" alt="Contribution Grid Snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1792953450" alt="Contribution Grid Snake" width="100%" />
 </p>
 
 ---
