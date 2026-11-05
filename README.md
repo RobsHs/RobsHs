@@ -38,9 +38,9 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 
 ### ✦ Core Engineering Specializations
 
-- 🧠 **AI-Augmented System Engineering**: Orchestrating frontier AI models (Google Gemini 3.8, Claude 3.7, Deep Agentic Pipelines) to accelerate complex architectural spikes, automated security analysis, and intelligent web integrations.
+- 🧠 **AI-Augmented System Engineering**: Authoring low-latency native AI voice & automation assistants ([`AI-ME`](https://github.com/RobsHs/AI-ME)) and orchestrating frontier neural models (Google Gemini 3.8, Groq Whisper, Claude 3.7, Deep Agentic Pipelines) to accelerate complex architectural spikes, speech-to-code pipelines, and intelligent integrations.
 - ⚡ **Modern Full-Stack Architecture & Web OS**: Engineering blisteringly fast, type-safe, and modular platforms utilizing **React 19**, **Next.js 15**, **TypeScript**, and desktop-grade browser simulations ([`MacOS-Web-Simulator`](https://github.com/RobsHs/MacOS-Web-Simulator), [`WIN98`](https://github.com/RobsHs/WIN98)).
-- 🛡️ **DevSecOps & Systems Engineering**: Authoring high-speed security exposure auditors ([`AegisScan`](https://github.com/RobsHs/AegisScan)), AST security parsers ([`PyAST-Guard`](https://github.com/RobsHs/pyast-guard)), and native Win32 C++ shell modifications ([`custom-start-button`](https://github.com/RobsHs/custom-start-button)).
+- 🛡️ **DevSecOps & Systems Engineering**: Authoring high-speed security exposure auditors ([`AegisScan`](https://github.com/RobsHs/AegisScan)), AST security parsers ([`PyAST-Guard`](https://github.com/RobsHs/pyast-guard)), and native Win32 C++ shell modifications ([`liquid-quick-launcher`](https://github.com/RobsHs/liquid-quick-launcher), [`custom-start-button`](https://github.com/RobsHs/custom-start-button)).
 
 ---
 
@@ -52,6 +52,7 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 
 | System &amp; Project | Technical Overview &amp; Capabilities | Technology Matrix | Gateway Access |
 | :--- | :--- | :--- | :---: |
+| <img src="https://skillicons.dev/icons?i=cpp,windows&theme=dark" width="48" /><br><b>AI-ME Assistant</b> | <b>Next-Gen AI Voice Typing, Coding &amp; Automation Assistant</b><br>Native, ultra-lightweight Windows desktop assistant written in modern C++23 with zero external runtime dependencies. Features Direct2D hardware acceleration, Acrylic &amp; Mica blur, low-latency WASAPI audio streaming, multi-provider AI failover (Groq Whisper, Gemini 2.0 Flash, Llama 3.3), and context-aware direct text &amp; code injection into any application. | `C++23`<br>`Win32 API`<br>`Direct2D / WASAPI`<br>`Groq &amp; Gemini AI` | [⚡ **RELEASE v2.0**](https://github.com/RobsHs/AI-ME/releases/latest)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/AI-ME) |
 | <img src="https://skillicons.dev/icons?i=react,apple&theme=dark" width="48" /><br><b>macOS Simulator</b> | <b>macOS Sequoia Next-Gen Web Simulator</b><br>Authentic browser-based macOS Sequoia desktop environment featuring sub-frame window physics, Monaco-powered VS Code editor, interactive terminal, Leaflet Maps with GPS geolocation, procedural Web Audio synthesizer, and Google Gemini AI integration. | `React 19`<br>`Vite 7`<br>`Tailwind CSS 4`<br>`Zustand` | [⚡ **LIVE DEMO**](https://macos-me.web.app)<br>[📦 **SOURCE REPO**](https://github.com/RobsHs/MacOS-Web-Simulator) |
 | <img src="https://skillicons.dev/icons?i=nodejs,js&theme=dark" width="48" /><br><b>DevAtlas</b> | <b>Computer Science Knowledge &amp; System Design Engine</b><br>Open-source, zero-dependency algorithm &amp; data structure library (100+ modules), system design architectural patterns, and interactive visual web dashboard with terminal CLI explorer. | `Node.js`<br>`Zero-Dep`<br>`System Design`<br>`Algorithms` | [📦 **SOURCE REPO**](https://github.com/RobsHs/devatlas) |
 | <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" width="48" /><br><b>OmniTools Ultimate</b> | <b>Full-Stack Developer Suite &amp; Zero-Mock Media Engine</b><br>Production-grade developer utility platform featuring iOS 26 Liquid-Glass aesthetics, zero-mock backend computation, media transcoding pipelines, and Google Gemini AI Flash neural telemetry. | `Node.js 20+`<br>`Express v5`<br>`Tailwind CSS`<br>`Gemini AI` | [📦 **SOURCE REPO**](https://github.com/RobsHs/omnitools-ultimate) |
@@ -122,12 +123,12 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 ## 📊 04 // Telemetry &amp; Activity Metrics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1793563876" alt="RobsHs Crimson Stats" height="195" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1793563876" alt="Top Weaponry" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api?username=RobsHs&show_icons=true&include_all_commits=true&count_private=true&show=prs_merged&bg_color=080406&title_color=FF003C&text_color=FFE5EC&icon_color=FF003C&border_color=FF003C&cache_seconds=1800&t=1793860657" alt="RobsHs Crimson Stats" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RobsHs&layout=compact&bg_color=080406&title_color=FF003C&text_color=FFE5EC&border_color=FF003C&cache_seconds=1800&t=1793860657" alt="Top Weaponry" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1793563876" alt="Execution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=RobsHs&timezone=Asia/Jakarta&background=080406&border=FF003C&stroke=FF003C&ring=FF003C&fire=FF003C&currStreakNum=FF003C&sideNums=FFE5EC&currStreakLabel=FF003C&sideLabels=FF3366&dates=FF758F&cache_seconds=1800&t=1793860657" alt="Execution Streak" />
 </p>
 
 ---
@@ -139,7 +140,7 @@ I believe AI is not a crutch for bad code; it is a **force multiplier for elite 
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1793563876" alt="Contribution Grid Snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/RobsHs/RobsHs/output/github-contribution-grid-snake-neon.svg?t=1793860657" alt="Contribution Grid Snake" width="100%" />
 </p>
 
 ---
